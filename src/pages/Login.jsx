@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styled from "styled-components";
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { mobile } from "../responsive";
 
 const Container = styled.div`
@@ -60,7 +60,7 @@ const Link = styled.a`
 `;
 
 const Login = () => {
-  const history = useHistory(); // Get the history object from react-router-dom
+  const history = useNavigate(); // Get the history object from react-router-dom
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 

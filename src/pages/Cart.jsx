@@ -156,7 +156,7 @@ const Button = styled.button`
 
 const fetchFunction = async (url,method,payload,next) =>{
   try{
-    data = {}
+    const data = {}
     next(data)
   }catch(e){
     console.log("Error at Cart.fetchFunction=>",e)
