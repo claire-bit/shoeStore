@@ -1,23 +1,23 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://i.ibb.co/XsdmR2c/1.png",
-      title: "SUMMER SALE",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+      img: "https://www.escaro.in/products/0509201599316484-5_thump.jpg",
+      title: "CLASSY SALES",
+      desc: "GRAB YOURS TODAY.",
       bg: "f5fafd",
     },
     {
       id: 2,
-      img: "https://i.ibb.co/DG69bQ4/2.png",
-      title: "AUTUMN COLLECTION",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+      img: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d14fc386-1067-4a72-961e-9f8134680703/dunk-low-womens-shoes-ppQwKZ.png",
+      title: "SPORT WEAR",
+      desc: "GRAB YOURS TODAY.",
       bg: "fcf1ed",
     },
     {
       id: 3,
-      img: "https://i.ibb.co/cXFnLLV/3.png",
-      title: "LOUNGEWEAR LOVE",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+      img: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a24687a4-9b35-4627-ba9a-394bcfdb2d69/kawa-little-big-kids-slides-VXZxnZ.png",
+      title: "COMFORT FITS",
+      desc: "GRAB YOURS TODAY.",
       bg: "fbf0f4",
     },
   ];
@@ -25,52 +25,60 @@ export const sliderItems = [
   export const categories = [
     {
       id: 1,
-      img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "SHIRT STYLE!",
+      img: "https://i.ebayimg.com/images/g/KPIAAOSwbE9kGlJn/s-l400.jpg",
+      title: "CONVERSE STYLE!",
     },
     {
       id: 2,
-      img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "LOUNGEWEAR LOVE",
+      img: "https://thumblr.uniid.it/product/267298/bc2ad2dc40cf.jpg",
+      title: "DURABLE WEAR",
     },
     {
       id: 3,
-      img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      title: "LIGHT JACKETS",
+      img: "https://files.sophie.co.ke/2024/01/385002413_1495_6102-450x450.webp",
+      title: "STYLISH",
     },
   ];
 
   export const popularProducts = [
     {
       id:1,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+      img:"https://citywalk.co.ke/wp-content/uploads/2022/09/DL263-2-500x500.jpg",
     },
     {
       id:2,
-      img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+      img:"https://citywalk.co.ke/wp-content/uploads/2022/09/DL261-12.jpg",
     },
     {
       id:3,
-      img:"https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+      img:"https://static.wixstatic.com/media/5c3bd4_0a9bdd37f743464d9fe8c0e9e0c55d15~mv2.jpeg/v1/fill/w_480,h_590,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/5c3bd4_0a9bdd37f743464d9fe8c0e9e0c55d15~mv2.jpeg",
     },
     {
       id:4,
-      img:"https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+      img:"https://snood-sa.com/wp-content/uploads/2023/07/unnamed-file-348.jpg",
     },
     {
       id:5,
-      img:"https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png",
+      img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQisw3JK2C3cZQDQQwiuDX3hDWtbJVXjLZEZQ&s",
     },
     {
       id:6,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
+      img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbHeSJfCPcXYC2w0n8oasRDr38gwXZAm1cYg&s",
     },
     {
       id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+      img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZkCtg2BOaatkaJ5K1DaWW6E7X5-f91Y2HMA7jXt-udw&s",
     },
     {
       id:8,
-      img:"https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
+      img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHLN-f14c2X20tT3WPSf9FT4zGJFpXOTiKKQ&s",
+    },
+    {
+      id:9,
+      img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0Td2-EJ-Z79e6FT6U-0lpfHEXxYrCJSx2VA&s",
+    },
+    {
+      id:10,
+      img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJsdWomxQVdfkLILrcngNm2N2hw2DQuRQddqD6oy9dMQ&s",
     },
   ]

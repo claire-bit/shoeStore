@@ -1,0 +1,27 @@
+{
+  "port": "3000",
+  "mongodb": {
+    "url": "mongodb+srv://franciscagatwiri1:ZGhsjDnLRoDJazdo@cluster0.cwr1bxe.mongodb.net/pay?retryWrites=true&w=majority"
+  },
+  "auth": {
+    "url": "https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials"
+  },
+  "lipaNaMpesa": {
+    "processRequest": "https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest",
+    "queryRequest": "https://sandbox.safaricom.co.ke/mpesa/stkpushquery/v1/query",
+    "key": "92329c5d989790325ac492dba8b919282e25daec50eafef344eb060eae363bb8",
+    "shortCode": "4293307",
+    "consumerKey": "H65FlGErvyuFvsajRekG9zcRdnQ30kHO",
+    "consumerSecret": "2ARcZPg7Gc8gWFBd",
+    "callBackURL": "https://f080-196-250-209-174.ngrok-free.app/stkpush/query"
+  },
+  "validationConfirm": {
+    "registerURLs": "https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl",
+    "consumerKey": "3uHElGTxJIBqf3LfcUJ8UJPYmV8sX25s",
+    "consumerSecret": "PbhGFEm9Adu0VA7g",
+    "shortCode": "4293307",
+    "confirmationURL": "https://pay.weparkafrica.com/confirm",
+    "validationURL": "https://pay.weparkafrica.com/validate",
+    "responseType": "Completed"
+  }
+}

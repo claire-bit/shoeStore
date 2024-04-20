@@ -1,5 +1,7 @@
+import React, { useState } from 'react';
 import styled from "styled-components";
-import {mobile} from "../responsive";
+import { useHistory } from 'react-router-dom';
+import { mobile } from "../responsive";
 
 const Container = styled.div`
   width: 100vw;
@@ -8,7 +10,7 @@ const Container = styled.div`
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://images.pexels.com/photos/6984650/pexels-photo-6984650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    url("https://www.shutterstock.com/image-illustration/podiumstandwith-terrazzo-stoneon-bright-background-260nw-1435576727.jpg")
       center;
   background-size: cover;
   display: flex;
@@ -19,7 +21,7 @@ const Container = styled.div`
 const Wrapper = styled.div`
   width: 25%;
   padding: 20px;
-  background-color: white;
+  background-color: transparent;
   ${mobile({ width: "75%" })}
 `;
 
@@ -58,15 +60,44 @@ const Link = styled.a`
 `;
 
 const Login = () => {
+  const history = useHistory(); // Get the history object from react-router-dom
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+
+  const handleLogin = (e) => {
+    e.preventDefault();
+
+    // Here, you would typically make an API call to validate the username and password.
+    // For demonstration purposes, let's assume the login is successful.
+    const isLoggedIn = true; // Replace with your actual authentication logic
+
+    if (isLoggedIn) {
+      // Navigate to the "product" page
+      history.push('/product');
+    } else {
+      // Handle login failure
+      alert('Login failed. Please try again.');
+    }
+  };
+
   return (
     <Container>
       <Wrapper>
         <Title>SIGN IN</Title>
-        <Form>
-          <Input placeholder="username" />
-          <Input placeholder="password" />
-          <Button>LOGIN</Button>
-          <Link>DO NOT YOU REMEMBER THE PASSWORD?</Link>
+        <Form onSubmit={handleLogin}>
+          <Input 
+            placeholder="username" 
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+          />
+          <Input 
+            type="password"
+            placeholder="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+          <Button type="submit">LOGIN</Button>
+          <Link>FORGOT PASSWORD?</Link>
           <Link>CREATE A NEW ACCOUNT</Link>
         </Form>
       </Wrapper>

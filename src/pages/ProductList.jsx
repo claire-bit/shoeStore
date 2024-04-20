@@ -41,7 +41,7 @@ const ProductList = () => {
     <Container>
       <Navbar />
       <Announcement />
-      <Title>Dresses</Title>
+      <Title>Shoes</Title>
       <FilterContainer>
         <Filter>
           <FilterText>Filter Products:</FilterText>
@@ -60,11 +60,11 @@ const ProductList = () => {
             <Option disabled selected>
               Size
             </Option>
-            <Option>XS</Option>
-            <Option>S</Option>
-            <Option>M</Option>
-            <Option>L</Option>
-            <Option>XL</Option>
+            <Option>37</Option>
+            <Option>38</Option>
+            <Option>39</Option>
+            <Option>40</Option>
+            <Option>41</Option>
           </Select>
         </Filter>
         <Filter>

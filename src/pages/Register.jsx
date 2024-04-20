@@ -1,3 +1,5 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from "styled-components";
 import { mobile } from "../responsive";
 
@@ -8,7 +10,7 @@ const Container = styled.div`
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://images.pexels.com/photos/6984661/pexels-photo-6984661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    url("https://t3.ftcdn.net/jpg/05/74/12/86/360_F_574128647_mO3OeZLdPObKYOxuWOtoAcqij8yMuDPM.jpg")
       center;
   background-size: cover;
   display: flex;
@@ -19,7 +21,7 @@ const Container = styled.div`
 const Wrapper = styled.div`
   width: 40%;
   padding: 20px;
-  background-color: white;
+  background-color: transparent;
   ${mobile({ width: "75%" })}
 `;
 
@@ -71,6 +73,13 @@ const Register = () => {
             data in accordance with the <b>PRIVACY POLICY</b>
           </Agreement>
           <Button>CREATE</Button>
+
+          {/* Next: Login Button */}
+          <Link to="/login" style={{ textDecoration: 'none', width: '100%', textAlign: 'center' }}>
+            <Button style={{ marginTop: '20px', backgroundColor: 'gray' }}>
+              Next: Login
+            </Button>
+          </Link>
         </Form>
       </Wrapper>
     </Container>

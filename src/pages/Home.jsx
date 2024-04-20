@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import Announcement from "../components/Announcement";
 import Categories from "../components/Categories";
 import Footer from "../components/Footer";
@@ -14,9 +15,19 @@ const Home = () => {
       <Navbar />
       <Slider />
       <Categories />
-      <Products/>
-      <Newsletter/>
-      <Footer/>
+      <Products />
+      <Newsletter />
+
+      {/* Register Button */}
+      <div style={{ textAlign: 'center', marginTop: '20px' }}>
+        <Link to="/register">
+          <button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer' }}>
+            Register
+          </button>
+        </Link>
+      </div>
+
+      <Footer />
     </div>
   );
 };

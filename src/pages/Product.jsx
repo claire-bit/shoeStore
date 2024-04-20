@@ -122,33 +122,34 @@ const Product = () => {
       <Announcement />
       <Wrapper>
         <ImgContainer>
-          <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />
+          <Image src="https://parade.com/.image/t_share/MTk2MDczMTM2NzE3MTEzMzQy/lowpumpsblue.jpg" />
         </ImgContainer>
         <InfoContainer>
-          <Title>Denim Jumpsuit</Title>
+          <Title>Low Pumps Heels</Title>
           <Desc>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            venenatis, dolor in finibus malesuada, lectus ipsum porta nunc, at
-            iaculis arcu nisi sed mauris. Nulla fermentum vestibulum ex, eget
-            tristique tortor pretium ut. Curabitur elit justo, consequat id
-            condimentum ac, volutpat ornare.
+            Low pumps heels have a a low-cut front, typically with a pointed or rounded toe, and a high heel.
+            Height of the heel can vary, ranging from a few inches to several inches.
+            You can get a color of your choice depending on your preference. Suitable for both formal and casual occasions.
+            They can be paired with dresses, skirts, trousers, and jeans, depending on the desired look and level of formality.
+            They have been incorporated with comfort features such as cushioned insoles, arch support, and padded footbeds to enhance comfort and support during wear.          
           </Desc>
-          <Price>$ 20</Price>
+          <Price>Ksh3000</Price>
           <FilterContainer>
             <Filter>
               <FilterTitle>Color</FilterTitle>
               <FilterColor color="black" />
               <FilterColor color="darkblue" />
               <FilterColor color="gray" />
+              <FilterColor color="green" />
             </Filter>
             <Filter>
               <FilterTitle>Size</FilterTitle>
               <FilterSize>
-                <FilterSizeOption>XS</FilterSizeOption>
-                <FilterSizeOption>S</FilterSizeOption>
-                <FilterSizeOption>M</FilterSizeOption>
-                <FilterSizeOption>L</FilterSizeOption>
-                <FilterSizeOption>XL</FilterSizeOption>
+                <FilterSizeOption>37</FilterSizeOption>
+                <FilterSizeOption>38</FilterSizeOption>
+                <FilterSizeOption>39</FilterSizeOption>
+                <FilterSizeOption>40</FilterSizeOption>
+                <FilterSizeOption>41</FilterSizeOption>
               </FilterSize>
             </Filter>
           </FilterContainer>
