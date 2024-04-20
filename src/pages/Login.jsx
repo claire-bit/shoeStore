@@ -73,7 +73,8 @@ const Login = () => {
 
     if (isLoggedIn) {
       // Navigate to the "product" page
-      history.push('/product');
+      navigate('/product');
+      //history.push('/product');
     } else {
       // Handle login failure
       alert('Login failed. Please try again.');

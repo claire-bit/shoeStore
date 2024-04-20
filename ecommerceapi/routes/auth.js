@@ -16,6 +16,10 @@ router.post("/register", async (req,res)=>{
     });
 
     try{
+        const user = await User.findOne({isAdmin:true})
+        if(!user){
+            newUser.isAdmin = true;
+        }
         const savedUser = await newUser.save();
         res.status(201).json(savedUser);        
     }
